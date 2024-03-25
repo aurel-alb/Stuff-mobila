@@ -1,0 +1,15 @@
+{
+  "name": "sccss-exercitii-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass  --watch index.scss index.css",
+    "compile-alerts": "sass  --watch alerts.scss alerts.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1"
+  },
+  "description": ""
+}

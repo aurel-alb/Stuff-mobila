@@ -1,0 +1,213 @@
+
+body{
+    background:  rgb(236, 233, 233);
+    font-family: sans-serif;
+}
+
+
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+   align-items: center;
+    box-shadow: 0 0 25px 0 rgb(107, 104, 104);
+    justify-content: center;
+    font-weight:bold;
+    font-size: 17;
+}
+header *{
+    display: inline;
+}
+header img{
+    height: 40px;
+    float: left;
+    position: left;
+    
+    
+}
+header li {
+    margin: 20px;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+.home{
+    color: orange;
+}
+.inceput{
+
+    display: flex;
+    align-items: center;
+    flex-flow: column ;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+@media  screen and (max-width: 1000px){
+    .butoane ,.informatii{   
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;}
+  
+
+}
+.inceput h1{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    color: #303030;
+    font-weight: 600;
+}
+
+.butoane{
+
+    display: flexbox;
+    justify-content: space-around;
+    margin: 100px;
+   
+    
+    
+}
+.butoane button{
+    background: #303030 none repeat scroll 0 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #303030;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 25px;
+    text-align: center;
+    width: 160px;
+    height: 42px;
+    flex-flow: row;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.butoane button:hover{
+    background: orange;
+    border: 0;
+}
+
+.informatii{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
+.oferte{
+    background: #ff6b57 none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 7px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 transparent;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: max-content;
+}
+.casuta{
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.numar{
+    display: block;
+    font-size: 30px;
+}
+.magazine{
+    background: purple;
+    border-radius: 4px;
+    box-shadow: 0 7px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 transparent;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: max-content;
+}
+.clienti{
+    background: turquoise;
+    border-radius: 4px;
+    box-shadow: 0 7px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 transparent;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: max-content;
+}
+.premii{
+    background: yellow;
+    border-radius: 4px;
+    box-shadow: 0 7px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 transparent;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: max-content;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    flex-flow: column ;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 5%;
+}
+
+.imagini{
+    overflow: clip;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.imagini img{
+    width: 250px;
+    height: 250px;
+}
+ .optiune{
+    display: flex;
+    flex-flow: column wrap;
+    background: #fff ;
+    padding: 20px ;
+    align-items: center;
+    margin: 10px;
+    
+
+ }
+
+ @media  screen and (max-width: 1000px){
+   .imagini{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+   }
+   .optiune{
+    width: 50%;
+    align-items: center;
+
+   }
+   .optiune img{
+    width: 400px;
+    height:400px
+   }
+  
+
+}
+
